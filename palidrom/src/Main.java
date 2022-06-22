@@ -1,5 +1,5 @@
 public class Main {
-    //dönüş tipini string olraka verdim böylce return  string veri tipinde bir değer olacak
+    //dönüş tipini string olarak verdim böylece return  string veri tipinde bir değer olacak
     static String palidrom(int sayi) {
         int geciciSayi = sayi;
         int donusenSayi = 0;
