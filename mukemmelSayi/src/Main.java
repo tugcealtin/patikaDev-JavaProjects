@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         int sayi;
-        int toplam ;
+        int toplam;
         do {
-            toplam=0;
+            toplam = 0;
             Scanner scan = new Scanner(System.in);
             System.out.print("Sayi= ");
             sayi = scan.nextInt();
@@ -14,12 +14,16 @@ public class Main {
                     toplam = toplam + i;
                 }
 
-            }if(sayi==toplam){
-                System.out.println(sayi+" sayisi mukemmel sayidir");
-            }else{
-                System.out.println(sayi+" sayisi mukemmel degil");
+            }
+            if (sayi == toplam) {
+                System.out.println(sayi + " sayisi mukemmel sayidir");
+            } else {
+                System.out.println(sayi + " sayisi mukemmel degil");
             }
             System.out.println("Sorgu tekrar basliyor");
         } while (true);
+
     }
+
+
 }
